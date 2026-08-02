@@ -29,7 +29,7 @@ export default function Hero() {
   return (
     <section 
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background pt-[10%]"
       onMouseMove={handleMouseMove}
       ref={ref}
     >
