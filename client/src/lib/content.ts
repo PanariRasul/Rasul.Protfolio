@@ -94,6 +94,7 @@ export const site = siteJson;
 export const experience = experienceJson.items;
 export const education = educationJson.items;
 export const certificates = certificatesJson.items;
+export const certificatesFolderId: string = (certificatesJson as any).driveFolderId ?? "";
 export const skills = skillsJson;
 export const services = servicesJson.items;
 

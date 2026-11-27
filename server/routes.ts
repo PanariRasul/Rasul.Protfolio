@@ -53,6 +53,58 @@ export async function registerRoutes(httpServer: Server, app: Express): Promise<
     }
   });
 
+
+  /* ------------------------------------------------------------------
+   * Certificates from a public Google Drive folder.
+   * Needs GOOGLE_API_KEY (free, Google Cloud → enable "Google Drive API").
+   * Folder ID comes from certificates.json (editable in /admin).
+   * Cached for 30 minutes. Returns [] if not configured → site uses certificates.json.
+   * ------------------------------------------------------------------ */
+  let certCache: { at: number; folder: string; items: any[] } | null = null;
+  app.get("/api/certificates", async (_req, res) => {
+    const key = process.env.GOOGLE_API_KEY;
+    const folder = (getContent() as any).certificatesFolder || process.env.DRIVE_CERT_FOLDER_ID || "";
+    res.set("Cache-Control", "public, max-age=600");
+    if (!key || !folder) return res.json({ items: [], source: "none" });
+    if (certCache && certCache.folder === folder && Date.now() - certCache.at < 30 * 60_000) {
+      return res.json({ items: certCache.items, source: "drive" });
+    }
+    try {
+      const items: any[] = [];
+      let pageToken = "";
+      do {
+        const url = new URL("https://www.googleapis.com/drive/v3/files");
+        url.searchParams.set("q", `'${folder.replace(/[^\w-]/g, "")}' in parents and trashed = false and mimeType != 'application/vnd.google-apps.folder'`);
+        url.searchParams.set("fields", "nextPageToken, files(id, name, mimeType, createdTime)");
+        url.searchParams.set("orderBy", "name");
+        url.searchParams.set("pageSize", "200");
+        url.searchParams.set("key", key);
+        if (pageToken) url.searchParams.set("pageToken", pageToken);
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(`Drive ${r.status}: ${(await r.text()).slice(0, 200)}`);
+        const d: any = await r.json();
+        for (const f of d.files ?? []) {
+          items.push({
+            id: f.id,
+            name: prettyName(f.name),
+            fileName: f.name,
+            mimeType: f.mimeType,
+            thumbnail: `https://drive.google.com/thumbnail?id=${f.id}&sz=w800`,
+            preview: `https://drive.google.com/file/d/${f.id}/preview`,
+            view: `https://drive.google.com/file/d/${f.id}/view`,
+            download: `https://drive.google.com/uc?export=download&id=${f.id}`,
+          });
+        }
+        pageToken = d.nextPageToken || "";
+      } while (pageToken);
+      certCache = { at: Date.now(), folder, items };
+      res.json({ items, source: "drive" });
+    } catch (e) {
+      console.error("[certificates]", (e as Error).message);
+      res.json({ items: certCache?.items ?? [], source: certCache ? "drive-cache" : "error" });
+    }
+  });
+
   /* ------------------------------------------------------------------
    * Admin panel (Decap CMS) — GitHub login via OAuth.
    * Needs GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET in .env
@@ -143,6 +195,11 @@ function isHttps(req: Request) {
 export function origin(req: Request) {
   if (process.env.SITE_URL) return process.env.SITE_URL.replace(/\/$/, "");
   return `${isHttps(req) ? "https" : "http"}://${req.headers["x-forwarded-host"] || req.headers.host}`;
+}
+
+/** "DevTown_Backend-Cert.pdf" → "DevTown Backend Cert" */
+function prettyName(n: string) {
+  return n.replace(/\.[a-z0-9]{2,5}$/i, "").replace(/[_]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
 type Msg = { role: "user" | "assistant"; text: string };

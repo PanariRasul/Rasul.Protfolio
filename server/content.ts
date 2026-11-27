@@ -32,6 +32,7 @@ function load() {
     experience: readJson("experience.json")?.items ?? [],
     education: readJson("education.json")?.items ?? [],
     certificates: readJson("certificates.json")?.items ?? [],
+    certificatesFolder: readJson("certificates.json")?.driveFolderId ?? "",
     skills: readJson("skills.json") ?? { groups: [], languages: [] },
     services: readJson("services.json")?.items ?? [],
     projects: readDir("projects").sort((a: any, b: any) => (a.order ?? 99) - (b.order ?? 99)),

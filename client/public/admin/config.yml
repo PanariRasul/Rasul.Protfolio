@@ -265,7 +265,8 @@ collections:
         name: certificates
         file: client/src/content/certificates.json
         fields:
-          - label: Certificates
+          - { label: "Google Drive folder ID (public folder — certificates are loaded from here automatically)", name: driveFolderId, widget: string, required: false, hint: "The part after /folders/ in the Drive link. Leave empty to use only the list below." }
+          - label: Extra certificates (shown only if Drive is empty/unavailable)
             name: items
             widget: list
             fields:

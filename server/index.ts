@@ -4,6 +4,13 @@ import { serveStatic } from "./static";
 import { createServer } from "http";
 import compression from "compression";
 
+// Load .env (local development). On Render, variables come from the Environment tab instead.
+try {
+  (process as any).loadEnvFile?.(".env");
+} catch {
+  /* no .env file — fine */
+}
+
 const app = express();
 const httpServer = createServer(app);
 
