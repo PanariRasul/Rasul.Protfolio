@@ -1,16 +1,25 @@
 {
+  "title": "The Motor Desk",
   "slug": "motor-desk",
+  "tagline": "Automotive Garage & Workshop Management System",
+  "category": "erp",
   "order": 5,
   "featured": true,
-  "category": "erp",
-  "title": "The Motor Desk",
-  "tagline": "Automotive Garage & Workshop Management System",
+  "private": false,
   "liveUrl": "https://themotordesk.com/",
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Garage management system for car, bike and washing services — customers, vehicles, job tracking, billing, staff, salary and reports.",
   "overview": "The Motor Desk simplifies daily workshop operations for car, bike and washing services. It brings customers, vehicles, service jobs, billing, staff and business reports into one platform.",
   "problem": "Garages track customers, vehicles, jobs and payments in notebooks or scattered spreadsheets, so service history gets lost and billing is slow.",
   "solution": "A single dashboard for customer and vehicle records, service booking and job tracking, digital invoicing, payments, staff and salary management, and revenue reports.",
   "result": "Workshops keep full service history per vehicle, bill digitally, and see their revenue and service reports in one place.",
+  "images": [
+    "/uploads/motordesk-performance-dashboard.webp",
+    "/uploads/projects/motor-desk-2.svg",
+    "/uploads/projects/motor-desk-3.svg"
+  ],
   "features": [
     "Customer and vehicle management",
     "Service booking, scheduling and job tracking",
@@ -90,14 +99,5 @@
     "CRM",
     "Prisma",
     "Automotive"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Full Stack Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/motor-desk-1.svg",
-    "/uploads/projects/motor-desk-2.svg",
-    "/uploads/projects/motor-desk-3.svg"
   ]
 }
