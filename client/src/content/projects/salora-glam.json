@@ -1,16 +1,25 @@
 {
+  "title": "Salora Glam",
   "slug": "salora-glam",
+  "tagline": "Salon & Spa Billing and Management Software",
+  "category": "erp",
   "order": 6,
   "featured": false,
-  "category": "erp",
-  "title": "Salora Glam",
-  "tagline": "Salon & Spa Billing and Management Software",
+  "private": false,
   "liveUrl": "https://www.saloraglam.com/",
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Salon and spa management with appointments, customers, service catalogue, staff, billing and sales records.",
   "overview": "Salora Glam helps beauty and wellness businesses run day-to-day operations from one digital platform: appointments, customers, services, staff and billing.",
   "problem": "Salons manage bookings by phone and paper, which leads to double bookings, lost customer history and manual billing.",
   "solution": "A management app with appointment booking, a service and price catalogue, customer profiles, staff management and quick invoice generation.",
   "result": "Salons organise appointments and billing digitally and keep a complete history of every customer's services.",
+  "images": [
+    "/uploads/salora-glam-salon-billing-suite.webp",
+    "/uploads/projects/salora-glam-2.svg",
+    "/uploads/projects/salora-glam-3.svg"
+  ],
   "features": [
     "Appointment and booking management",
     "Customer information and service history",
@@ -80,14 +89,5 @@
     "Salon",
     "Billing",
     "Prisma"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Full Stack Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/salora-glam-1.svg",
-    "/uploads/projects/salora-glam-2.svg",
-    "/uploads/projects/salora-glam-3.svg"
   ]
 }
