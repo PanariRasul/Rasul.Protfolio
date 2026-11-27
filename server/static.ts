@@ -13,12 +13,21 @@ export function serveStatic(app: Express) {
   }
   const template = fs.readFileSync(path.join(distPath, "index.html"), "utf-8");
 
-  // Hashed build files can be cached for a year; everything else briefly.
+  // Hashed build files (/assets/*) never change → cache for a year.
   app.use(
     "/assets",
     express.static(path.join(distPath, "assets"), { immutable: true, maxAge: "1y" }),
   );
-  app.use(express.static(distPath, { maxAge: "1h", index: false }));
+  // Everything else (uploads, resume, logos) can be replaced from /admin with the SAME file name,
+  // so the browser must re-check every time ("no-cache" = use cached copy only if unchanged).
+  app.use(
+    express.static(distPath, {
+      index: false,
+      etag: true,
+      lastModified: true,
+      setHeaders: (res) => res.setHeader("Cache-Control", "no-cache"),
+    }),
+  );
 
   // All other routes → index.html, with page-specific SEO tags so shared links show the right preview.
   app.use("*", (req, res) => {
