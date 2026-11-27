@@ -1,16 +1,25 @@
 {
+  "title": "Motor Konnect",
   "slug": "motor-konnect",
+  "tagline": "Automotive Service & Workshop Network Platform",
+  "category": "erp",
   "order": 7,
   "featured": false,
-  "category": "erp",
-  "title": "Motor Konnect",
-  "tagline": "Automotive Service & Workshop Network Platform",
+  "private": false,
   "liveUrl": "https://www.motorkonnect.com/",
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Platform connecting vehicle owners with workshops and technicians — service booking, SOS assistance, spare parts and partner management.",
   "overview": "Motor Konnect connects vehicle owners with automotive services, workshops and technicians, offering service booking, workshop discovery, SOS assistance and spare-parts services.",
   "problem": "Vehicle owners find it hard to locate trusted workshops or get help quickly during a breakdown.",
   "solution": "A customer-facing platform to discover workshops, book services, request SOS help and browse service categories, with partner management on the business side.",
   "result": "Customers can find and book automotive services from one responsive platform, and workshops receive service requests digitally.",
+  "images": [
+    "/uploads/motordesk-vehicle-service-sos-banner.webp",
+    "/uploads/projects/motor-konnect-2.svg",
+    "/uploads/projects/motor-konnect-3.svg"
+  ],
   "features": [
     "Automotive service booking",
     "Workshop and partner management",
@@ -80,14 +89,5 @@
     "Automotive",
     "Booking",
     "Prisma"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Full Stack Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/motor-konnect-1.svg",
-    "/uploads/projects/motor-konnect-2.svg",
-    "/uploads/projects/motor-konnect-3.svg"
   ]
 }
