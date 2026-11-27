@@ -1,16 +1,25 @@
 {
+  "title": "Restaurants Billing",
   "slug": "restaurants-billing",
+  "tagline": "Restaurant POS & Billing Management System",
+  "category": "erp",
   "order": 2,
   "featured": true,
-  "category": "erp",
-  "title": "Restaurants Billing",
-  "tagline": "Restaurant POS & Billing Management System",
+  "private": false,
   "liveUrl": "https://www.restaurantsbilling.com/",
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Restaurant POS covering orders, tables, kitchen display, GST invoices, UPI/card payments, inventory and reports in one integrated platform.",
   "overview": "Restaurants Billing is a restaurant operations platform covering POS, table and floor management, kitchen display, billing, inventory and reporting. Orders flow from a waiter's tablet or a QR menu straight to the kitchen.",
   "problem": "Restaurants juggle orders, tables, kitchen tickets, billing and stock across separate tools or paper, which causes delays, wrong orders and lost revenue data.",
   "solution": "A single POS where orders move from waiter tablet or QR menu to the kitchen display, tables and reservations are tracked live, and bills are generated with taxes, discounts and multiple payment modes.",
   "result": "Restaurant staff handle ordering, kitchen flow, billing and reporting from one system, with sales and inventory records available to owners at any time.",
+  "images": [
+    "/uploads/abacco-restaurant-erp-promotional-banner.webp",
+    "/uploads/abacco-restaurant-erp-pos-dashboard.webp",
+    "/uploads/abacco-restaurant-erp_-table-kitchen-management.webp"
+  ],
   "features": [
     "POS billing with GST / tax invoices",
     "Order flow from waiter tablet or QR menu to kitchen display",
@@ -90,14 +99,5 @@
     "POS",
     "Node.js",
     "PostgreSQL"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Full Stack Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/restaurants-billing-1.svg",
-    "/uploads/projects/restaurants-billing-2.svg",
-    "/uploads/projects/restaurants-billing-3.svg"
   ]
 }
