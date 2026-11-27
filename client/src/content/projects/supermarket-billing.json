@@ -1,16 +1,25 @@
 {
+  "title": "Supermarket Billing",
   "slug": "supermarket-billing",
+  "tagline": "Supermarket POS & Retail Management System",
+  "category": "erp",
   "order": 3,
   "featured": true,
-  "category": "erp",
-  "title": "Supermarket Billing",
-  "tagline": "Supermarket POS & Retail Management System",
+  "private": false,
   "liveUrl": "https://www.supermarketbilling.com/",
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Retail POS for kirana stores and supermarkets with barcode billing, multiple counters, offline bills with auto-sync, stock ledger and cashier roles.",
   "overview": "Supermarket Billing is a POS and back-office app for kirana stores and supermarkets. Multiple counters share stock and reports, cashiers bill with barcode or quick codes, and bills keep working offline and sync when the connection returns.",
   "problem": "Small retailers lose sales when the internet drops, struggle to track stock across counters, and have no clear view of daily sales per cashier.",
   "solution": "A POS with barcode / quick-code entry, weighing-scale input and UPI QR payments, an offline mode that stores bills on the device and syncs later, and a stock ledger that tracks sales, returns and deliveries.",
   "result": "Checkout keeps running even without internet, stock stays consistent across counters, and owners get daily and period sales reports per cashier.",
+  "images": [
+    "/uploads/supermarket-billing-solution-banner.webp",
+    "/uploads/projects/supermarket-billing-2.svg",
+    "/uploads/projects/supermarket-billing-3.svg"
+  ],
   "features": [
     "Barcode and quick-code product entry",
     "Weighing-scale input and change calculation",
@@ -91,14 +100,5 @@
     "POS",
     "Offline-first",
     "PostgreSQL"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Full Stack Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/supermarket-billing-1.svg",
-    "/uploads/projects/supermarket-billing-2.svg",
-    "/uploads/projects/supermarket-billing-3.svg"
   ]
 }
