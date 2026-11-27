@@ -1,0 +1,78 @@
+{
+  "groups": [
+    {
+      "name": "Frontend",
+      "items": [
+        "React.js",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "Styled Components",
+        "Vite",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "WebSockets",
+        "JWT Auth",
+        "RBAC",
+        "Multi-Tenant Architecture"
+      ]
+    },
+    {
+      "name": "Databases & ORM",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "Prisma ORM",
+        "Schema Design",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "items": [
+        "Capacitor",
+        "Android Studio",
+        "React → Android packaging"
+      ]
+    },
+    {
+      "name": "Integrations",
+      "items": [
+        "Payment Gateways",
+        "Email & SMS",
+        "Notifications",
+        "Third-party APIs"
+      ]
+    },
+    {
+      "name": "Tools & Deployment",
+      "items": [
+        "Git",
+        "GitHub",
+        "Render",
+        "Cloudflare",
+        "Postman",
+        "VS Code",
+        "Figma",
+        "Agile"
+      ]
+    }
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Marathi",
+    "Urdu"
+  ]
+}

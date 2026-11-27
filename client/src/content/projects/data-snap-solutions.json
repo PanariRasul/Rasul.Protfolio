@@ -1,0 +1,67 @@
+{
+  "slug": "data-snap-solutions",
+  "order": 13,
+  "featured": false,
+  "category": "website",
+  "title": "Data Snap Solutions Inc.",
+  "tagline": "B2B Data Solutions & Technology Services Website",
+  "liveUrl": "https://datasnapsolutionsinc.com/",
+  "cardDescription": "Corporate B2B website presenting data solutions and technology services.",
+  "overview": "A corporate website presenting business data solutions and technology services, with industry sections and an enquiry flow.",
+  "problem": "The company needed to explain its data services to businesses in a professional, trustworthy way.",
+  "solution": "Reusable, responsive sections for services, industries and company profile, plus a contact page.",
+  "result": "Potential clients can explore solutions and send enquiries from any device.",
+  "features": [
+    "B2B data solutions",
+    "Industry service sections",
+    "Company profile",
+    "Contact and enquiry page"
+  ],
+  "contributions": [
+    "Built reusable UI sections",
+    "Created service and company pages",
+    "Responsive layouts",
+    "Supported deployment"
+  ],
+  "challenges": [],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Browser DevTools"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "95+",
+      "label": "PageSpeed"
+    }
+  ],
+  "tags": [
+    "React",
+    "Vite",
+    "B2B"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/data-snap-solutions-1.svg",
+    "/uploads/projects/data-snap-solutions-2.svg",
+    "/uploads/projects/data-snap-solutions-3.svg"
+  ]
+}

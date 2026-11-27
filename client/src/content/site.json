@@ -1,0 +1,93 @@
+{
+  "name": "Rasul Panari",
+  "firstName": "Rasul",
+  "lastName": "Panari",
+  "title": "Full Stack Developer",
+  "roles": [
+    "Full Stack Developer",
+    "ERP & CRM Builder",
+    "React + Node.js Developer"
+  ],
+  "heroText": "I build ERP, CRM, POS and business management apps with React, Node.js and PostgreSQL — from database design to Android packaging.",
+  "availability": {
+    "open": true,
+    "label": "Open to opportunities",
+    "note": "Immediate joiner"
+  },
+  "location": "Bengaluru, Karnataka, India",
+  "email": "panarirasul@gmail.com",
+  "phone": "+91 72049 86825",
+  "showPhone": true,
+  "whatsapp": "917204986825",
+  "links": {
+    "github": "https://github.com/rasulAbacco",
+    "linkedin": "https://www.linkedin.com/in/rasulpanari/",
+    "bookingUrl": ""
+  },
+  "githubUsername": "rasulAbacco",
+  "resume": "/uploads/resume.pdf",
+  "about": {
+    "summary": "Full Stack Developer with 1+ years of professional experience building and maintaining ERP, CRM, billing and business management applications. I work across React, TypeScript, Node.js, Express, PostgreSQL, MongoDB and Prisma — designing REST APIs and database schemas, implementing authentication and role-based access, and supporting multi-tenant systems.",
+    "cards": [
+      {
+        "title": "The Developer",
+        "text": "I turn real business workflows — billing, bookings, fees, stock — into fast, reliable web apps that people use every day."
+      },
+      {
+        "title": "The Builder",
+        "text": "Multi-tenant ERPs, POS systems with offline sync, RBAC, payment, email and SMS integrations, and React apps packaged for Android with Capacitor."
+      },
+      {
+        "title": "The Stack",
+        "text": "React, TypeScript, Node.js, Express, PostgreSQL, MongoDB and Prisma — deployed and maintained on Render and Cloudflare."
+      }
+    ],
+    "stats": [
+      {
+        "value": "1+",
+        "label": "Years experience"
+      },
+      {
+        "value": "9+",
+        "label": "ERP / CRM apps"
+      },
+      {
+        "value": "6+",
+        "label": "Websites"
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "value": "95+",
+      "label": "PageSpeed on client sites"
+    },
+    {
+      "value": "3",
+      "label": "White-label Android apps"
+    },
+    {
+      "value": "Multi",
+      "label": "Tenant ERP architecture"
+    },
+    {
+      "value": "Offline",
+      "label": "POS billing with sync"
+    }
+  ],
+  "learning": [
+    {
+      "name": "Next.js",
+      "note": "Server components & SEO-friendly apps"
+    },
+    {
+      "name": "Docker",
+      "note": "Containerising Node.js services"
+    },
+    {
+      "name": "AWS basics",
+      "note": "Hosting and storage beyond Render"
+    }
+  ],
+  "lastUpdated": "2026-11-26"
+}

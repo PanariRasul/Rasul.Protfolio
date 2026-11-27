@@ -1,0 +1,100 @@
+{
+  "slug": "bounce-cure",
+  "order": 4,
+  "featured": true,
+  "category": "erp",
+  "title": "Bounce Cure",
+  "tagline": "Email Verification & Marketing Platform",
+  "liveUrl": "https://www.bouncecure.com/",
+  "cardDescription": "Email verification and marketing SaaS with bulk list processing, valid/invalid/risky detection, campaign workflows, analytics and API access.",
+  "overview": "Bounce Cure is a web-based email verification and marketing platform that helps businesses improve email data quality. It supports single and bulk verification, campaign workflows with scheduled sending and follow-ups, and performance monitoring.",
+  "problem": "Businesses sending campaigns to unverified lists get high bounce rates, damaged sender reputation and poor deliverability.",
+  "solution": "A central platform to verify addresses (single or bulk), sort them into valid, invalid and risky, then run and monitor campaigns only on clean lists.",
+  "result": "Teams clean their lists before sending, manage campaigns from one dashboard, and track opens and clicks to see what works.",
+  "features": [
+    "Single and bulk email verification",
+    "Valid, invalid and risky email identification",
+    "Verification results management and export",
+    "Campaign workflows with scheduled sending and follow-ups",
+    "Campaign analytics: opens and clicks",
+    "API integration for third-party tools"
+  ],
+  "contributions": [
+    "Developed responsive web application interfaces",
+    "Built validation and campaign-processing API integrations",
+    "Implemented error handling for failed / invalid recipients",
+    "Built the campaign analytics dashboard",
+    "Worked on database operations and backend services",
+    "Supported deployment and production maintenance"
+  ],
+  "challenges": [
+    {
+      "challenge": "Processing large uploaded lists without blocking the UI.",
+      "solution": "Bulk lists are processed in the background with progress and results shown on a dedicated results screen."
+    },
+    {
+      "challenge": "Failed and invalid recipients breaking campaigns.",
+      "solution": "Added recipient-level error handling so bad addresses are flagged and skipped instead of failing the whole send."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "Postman"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "Bulk",
+      "label": "List processing"
+    },
+    {
+      "value": "3",
+      "label": "Result types"
+    },
+    {
+      "value": "API",
+      "label": "Access"
+    }
+  ],
+  "tags": [
+    "React",
+    "Node.js",
+    "SaaS",
+    "Email"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/bounce-cure-1.svg",
+    "/uploads/projects/bounce-cure-2.svg",
+    "/uploads/projects/bounce-cure-3.svg"
+  ]
+}

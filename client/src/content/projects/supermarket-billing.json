@@ -1,0 +1,104 @@
+{
+  "slug": "supermarket-billing",
+  "order": 3,
+  "featured": true,
+  "category": "erp",
+  "title": "Supermarket Billing",
+  "tagline": "Supermarket POS & Retail Management System",
+  "liveUrl": "https://www.supermarketbilling.com/",
+  "cardDescription": "Retail POS for kirana stores and supermarkets with barcode billing, multiple counters, offline bills with auto-sync, stock ledger and cashier roles.",
+  "overview": "Supermarket Billing is a POS and back-office app for kirana stores and supermarkets. Multiple counters share stock and reports, cashiers bill with barcode or quick codes, and bills keep working offline and sync when the connection returns.",
+  "problem": "Small retailers lose sales when the internet drops, struggle to track stock across counters, and have no clear view of daily sales per cashier.",
+  "solution": "A POS with barcode / quick-code entry, weighing-scale input and UPI QR payments, an offline mode that stores bills on the device and syncs later, and a stock ledger that tracks sales, returns and deliveries.",
+  "result": "Checkout keeps running even without internet, stock stays consistent across counters, and owners get daily and period sales reports per cashier.",
+  "features": [
+    "Barcode and quick-code product entry",
+    "Weighing-scale input and change calculation",
+    "Cash, card and UPI QR payments with printed receipts",
+    "Offline billing with automatic sync",
+    "Multiple counters with shared stock",
+    "Stock ledger for sales, returns and deliveries",
+    "Admin and cashier roles with individual logins",
+    "Daily and period sales reports"
+  ],
+  "contributions": [
+    "Designed and built the POS billing interface in React",
+    "Implemented product selection and cart workflows",
+    "Built Admin and Cashier user management",
+    "Integrated product and billing data with backend APIs",
+    "Improved checkout usability",
+    "Supported deployment and maintenance"
+  ],
+  "challenges": [
+    {
+      "challenge": "Billing must not stop when the internet goes down.",
+      "solution": "Bills are stored on the device while offline and synced to the server automatically when connectivity returns."
+    },
+    {
+      "challenge": "Several counters selling from the same stock.",
+      "solution": "A shared stock ledger records every sale, return and delivery so all counters see consistent quantities."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL",
+        "Prisma ORM"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "Postman"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "Offline",
+      "label": "Billing + sync"
+    },
+    {
+      "value": "Multi",
+      "label": "Counter support"
+    },
+    {
+      "value": "2",
+      "label": "User roles"
+    }
+  ],
+  "tags": [
+    "React",
+    "POS",
+    "Offline-first",
+    "PostgreSQL"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/supermarket-billing-1.svg",
+    "/uploads/projects/supermarket-billing-2.svg",
+    "/uploads/projects/supermarket-billing-3.svg"
+  ]
+}

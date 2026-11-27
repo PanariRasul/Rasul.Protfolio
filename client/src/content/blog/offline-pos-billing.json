@@ -1,0 +1,12 @@
+{
+  "slug": "offline-pos-billing",
+  "title": "Making a supermarket POS work offline",
+  "date": "2026-11-10",
+  "summary": "Why billing should never stop when the internet drops — and how syncing works.",
+  "tags": [
+    "POS",
+    "React",
+    "Offline"
+  ],
+  "body": "## Why offline matters\n\nIn a busy store, a dropped connection can't stop checkout.\n\n## How it works\n\n1. Bills are saved on the device while offline.\n2. When the connection returns, pending bills sync to the server.\n3. A stock ledger records every sale, return and delivery so all counters stay consistent.\n\n*Draft post — edit or replace it from the admin panel.*"
+}

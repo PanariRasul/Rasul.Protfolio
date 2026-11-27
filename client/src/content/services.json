@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "Custom ERP / CRM",
+      "icon": "layers",
+      "text": "Business management systems for schools, restaurants, retail, salons and garages — billing, inventory, staff and reports.",
+      "price": ""
+    },
+    {
+      "title": "POS & Billing Software",
+      "icon": "receipt",
+      "text": "Fast, touch-friendly POS with GST invoices, UPI/card payments, barcode billing and offline support.",
+      "price": ""
+    },
+    {
+      "title": "Business Websites",
+      "icon": "globe",
+      "text": "Responsive, SEO-friendly company websites with 95+ PageSpeed scores and enquiry forms.",
+      "price": ""
+    },
+    {
+      "title": "Web → Android App",
+      "icon": "smartphone",
+      "text": "Package your React web app as a branded Android app with Capacitor.",
+      "price": ""
+    },
+    {
+      "title": "APIs & Integrations",
+      "icon": "plug",
+      "text": "REST APIs, payment gateways, email/SMS/WhatsApp notifications and third-party integrations.",
+      "price": ""
+    },
+    {
+      "title": "Maintenance & Deployment",
+      "icon": "server",
+      "text": "Bug fixing, performance improvements and deployment on Render or Cloudflare.",
+      "price": ""
+    }
+  ]
+}

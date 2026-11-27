@@ -1,0 +1,64 @@
+{
+  "slug": "waseela-ems",
+  "order": 15,
+  "featured": false,
+  "category": "website",
+  "title": "Waseela English Medium School",
+  "tagline": "School Website & Institution Portal",
+  "liveUrl": "https://waseela-website.onrender.com/",
+  "cardDescription": "School website showcasing academics, facilities and admissions — plus a branded Android app.",
+  "overview": "A professional website for Waseela English Medium School presenting its academics, facilities and admissions. The school also has its own branded Android app built from the Education ERP.",
+  "problem": "The school needed a clear online presence for parents and visitors.",
+  "solution": "A structured, responsive website with academics, facilities, gallery, admissions and contact pages.",
+  "result": "School information is accessible to parents and students from any device.",
+  "features": [
+    "About and academics",
+    "Facilities and gallery",
+    "Admission and enquiry info",
+    "Contact and location"
+  ],
+  "contributions": [
+    "Built homepage and information pages",
+    "Organised educational content",
+    "School branding and visuals",
+    "Supported deployment"
+  ],
+  "challenges": [],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Browser DevTools"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "+ App",
+      "label": "Android"
+    }
+  ],
+  "tags": [
+    "React",
+    "Education"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/waseela-ems-1.svg",
+    "/uploads/projects/waseela-ems-2.svg",
+    "/uploads/projects/waseela-ems-3.svg"
+  ]
+}

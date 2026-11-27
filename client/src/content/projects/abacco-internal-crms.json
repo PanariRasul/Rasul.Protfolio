@@ -1,0 +1,81 @@
+{
+  "slug": "abacco-internal-crms",
+  "order": 9,
+  "featured": false,
+  "category": "erp",
+  "private": true,
+  "title": "Abacco Internal CRM Suite",
+  "tagline": "Lead, Sales & Domain Management CRMs",
+  "liveUrl": "",
+  "cardDescription": "Internal Lead, Sales and Domain Management CRMs with role-based access and real-time WebSocket notifications.",
+  "overview": "A suite of internal CRMs used at Abacco Technology: Lead CRM for tracking and assigning leads, Sales CRM for pipeline and reporting, and Domain CRM for domain portfolios and renewals.",
+  "problem": "Leads, sales follow-ups and domain renewals were tracked manually, making it easy to miss follow-ups and expiry dates.",
+  "solution": "Three connected internal CRMs with role-based access, so each team member sees what's relevant to them, plus real-time notifications over WebSockets.",
+  "result": "Teams track leads, sales and domain renewals in one place and get notified instantly about new leads and status changes.",
+  "features": [
+    "Lead tracking, assignment and follow-ups",
+    "Sales pipeline and reporting",
+    "Domain portfolio and renewal tracking",
+    "Role-based access control (RBAC)",
+    "Real-time notifications over WebSockets"
+  ],
+  "contributions": [
+    "Built React + TypeScript interfaces",
+    "Implemented RBAC-protected views",
+    "Integrated WebSocket notifications",
+    "Designed PostgreSQL schemas with Prisma"
+  ],
+  "challenges": [
+    {
+      "challenge": "Users must only see records they're allowed to.",
+      "solution": "Applied role-based access checks on both API routes and UI views."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "WebSockets"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL",
+        "Prisma ORM"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "3",
+      "label": "Internal CRMs"
+    },
+    {
+      "value": "Real-time",
+      "label": "Notifications"
+    }
+  ],
+  "tags": [
+    "TypeScript",
+    "WebSockets",
+    "RBAC"
+  ],
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/abacco-internal-crms-1.svg",
+    "/uploads/projects/abacco-internal-crms-2.svg",
+    "/uploads/projects/abacco-internal-crms-3.svg"
+  ]
+}

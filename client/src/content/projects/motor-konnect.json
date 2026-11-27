@@ -1,0 +1,93 @@
+{
+  "slug": "motor-konnect",
+  "order": 7,
+  "featured": false,
+  "category": "erp",
+  "title": "Motor Konnect",
+  "tagline": "Automotive Service & Workshop Network Platform",
+  "liveUrl": "https://www.motorkonnect.com/",
+  "cardDescription": "Platform connecting vehicle owners with workshops and technicians — service booking, SOS assistance, spare parts and partner management.",
+  "overview": "Motor Konnect connects vehicle owners with automotive services, workshops and technicians, offering service booking, workshop discovery, SOS assistance and spare-parts services.",
+  "problem": "Vehicle owners find it hard to locate trusted workshops or get help quickly during a breakdown.",
+  "solution": "A customer-facing platform to discover workshops, book services, request SOS help and browse service categories, with partner management on the business side.",
+  "result": "Customers can find and book automotive services from one responsive platform, and workshops receive service requests digitally.",
+  "features": [
+    "Automotive service booking",
+    "Workshop and partner management",
+    "Technician service support",
+    "SOS breakdown assistance",
+    "Service categories and spare parts",
+    "Customer service request management"
+  ],
+  "contributions": [
+    "Built responsive website and app interfaces",
+    "Developed service booking and enquiry flows",
+    "Built workshop, technician and service displays",
+    "Integrated frontend with backend APIs",
+    "Improved UX across devices",
+    "Supported deployment and maintenance"
+  ],
+  "challenges": [
+    {
+      "challenge": "Making SOS help usable on a phone in stressful situations.",
+      "solution": "Kept the SOS flow short, mobile-first and reachable in a single tap."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL",
+        "Prisma ORM"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "Postman"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "SOS",
+      "label": "Assistance"
+    },
+    {
+      "value": "Partner",
+      "label": "Network"
+    }
+  ],
+  "tags": [
+    "React",
+    "Automotive",
+    "Booking",
+    "Prisma"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/motor-konnect-1.svg",
+    "/uploads/projects/motor-konnect-2.svg",
+    "/uploads/projects/motor-konnect-3.svg"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "fazeelah-ems",
+  "order": 14,
+  "featured": false,
+  "category": "website",
+  "title": "Fazeelah English Medium School",
+  "tagline": "School Website & Institution Portal",
+  "liveUrl": "https://fazeelah-ems.onrender.com/",
+  "cardDescription": "School website with academics, facilities, gallery and admission enquiries — plus a branded Android app.",
+  "overview": "A professional website for Fazeelah English Medium School so parents, students and visitors can learn about academics, facilities and admissions. The school also has its own branded Android app built from the Education ERP.",
+  "problem": "The school needed an online presence for parents and prospective admissions.",
+  "solution": "A responsive school site with about, academics, facilities, gallery, admissions and contact sections.",
+  "result": "Parents can find school information and admission details easily on mobile or desktop.",
+  "features": [
+    "About and academics",
+    "Facilities and gallery",
+    "Admission and enquiry info",
+    "Contact and location"
+  ],
+  "contributions": [
+    "Built homepage and page layouts",
+    "Organised educational content",
+    "School branding and visuals",
+    "Supported deployment"
+  ],
+  "challenges": [],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Browser DevTools"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "+ App",
+      "label": "Android"
+    }
+  ],
+  "tags": [
+    "React",
+    "Education"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/fazeelah-ems-1.svg",
+    "/uploads/projects/fazeelah-ems-2.svg",
+    "/uploads/projects/fazeelah-ems-3.svg"
+  ]
+}

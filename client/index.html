@@ -2,28 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7c3aed" />
 
-    <title>Rasul Panari | Web Architect</title>
-    <meta property="og:title" content="Rasul Panari | Web Architect & Full Stack Developer" />
-    <meta property="og:description" content="Portfolio of Rasul Panari - Web Architect and Full Stack Developer specializing in CRM solutions and modern web applications." />
+    <title>Rasul Panari | Full Stack Developer — ERP, CRM & POS Apps</title>
+    <meta name="description" content="Portfolio of Rasul Panari, Full Stack Developer in Bengaluru building ERP, CRM, POS and business apps with React, Node.js, PostgreSQL and Prisma." />
+    <meta name="author" content="Rasul Panari" />
+
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Rasul Panari" />
+    <meta property="og:title" content="Rasul Panari | Full Stack Developer — ERP, CRM & POS Apps" />
+    <meta property="og:description" content="Full Stack Developer building ERP, CRM, POS and business apps with React, Node.js and PostgreSQL." />
     <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Rasul Panari | Web Architect" />
-    <meta name="twitter:description" content="Portfolio of Rasul Panari - Web Architect and Full Stack Developer." />
+    <meta name="twitter:title" content="Rasul Panari | Full Stack Developer" />
+    <meta name="twitter:description" content="Full Stack Developer building ERP, CRM, POS and business apps with React, Node.js and PostgreSQL." />
+    <meta name="twitter:image" content="/og-image.png" />
 
-    <link rel="icon" type="image/png" href="/rpp-logo.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/logo.webp" />
+    <link rel="preload" as="image" href="/hero-bg.webp" type="image/webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Import Outfit (Display) and JetBrains Mono (Code/Tech) -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rasul Panari",
+        "jobTitle": "Full Stack Developer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Bengaluru", "addressCountry": "IN" },
+        "email": "mailto:panarirasul@gmail.com",
+        "sameAs": ["https://github.com/rasulAbacco", "https://www.linkedin.com/in/rasulpanari/"]
+      }
+    </script>
     <script>
       (function () {
         try {
           var saved = localStorage.getItem("theme");
-          var theme = saved === "light" || saved === "dark" ? saved : "dark";
-          document.documentElement.classList.add(theme);
+          document.documentElement.classList.add(saved === "light" ? "light" : "dark");
         } catch (e) {
           document.documentElement.classList.add("dark");
         }
@@ -32,6 +51,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>Rasul Panari — Full Stack Developer. Please enable JavaScript to view this portfolio.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

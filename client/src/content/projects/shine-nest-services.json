@@ -1,0 +1,67 @@
+{
+  "slug": "shine-nest-services",
+  "order": 11,
+  "featured": false,
+  "category": "website",
+  "title": "Shine Nest Services",
+  "tagline": "Facility Management & Cleaning Services Website",
+  "liveUrl": "https://shinenestservices.in/",
+  "cardDescription": "Business website for facility management and professional cleaning services with enquiry forms.",
+  "overview": "A professional services website showcasing facility management, cleaning and maintenance services, with company information and business enquiries.",
+  "problem": "The business needed to present many service categories clearly and capture customer enquiries.",
+  "solution": "Service-category sections, a clean corporate design and easy-to-find contact forms.",
+  "result": "Customers can explore services and contact the business from any device.",
+  "features": [
+    "Service category sections",
+    "Company profile",
+    "Enquiry and contact forms",
+    "Mobile-friendly design"
+  ],
+  "contributions": [
+    "Built responsive layouts and UI components",
+    "Organised service sections",
+    "Worked on navigation and structure",
+    "Supported deployment"
+  ],
+  "challenges": [],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Browser DevTools"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "95+",
+      "label": "PageSpeed"
+    }
+  ],
+  "tags": [
+    "React",
+    "Vite",
+    "Business"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/shine-nest-services-1.svg",
+    "/uploads/projects/shine-nest-services-2.svg",
+    "/uploads/projects/shine-nest-services-3.svg"
+  ]
+}

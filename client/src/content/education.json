@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "Bachelor of Engineering — Computer Science",
+      "place": "Government Engineering College, Talakal",
+      "sub": "Visvesvaraya Technological University, Belagavi",
+      "score": "CGPA: 7.6 / 10",
+      "icon": "degree"
+    },
+    {
+      "title": "Pre-University Course (PCMB)",
+      "place": "New Composite PU College, Raibag",
+      "sub": "Dept. of School Education and Literacy",
+      "score": "74%",
+      "icon": "book"
+    },
+    {
+      "title": "Secondary School Leaving Certificate (SSLC)",
+      "place": "GS Kante High School, Nasalapur",
+      "sub": "Karnataka Secondary Education Board · 2018",
+      "score": "88.96%",
+      "icon": "school"
+    }
+  ]
+}

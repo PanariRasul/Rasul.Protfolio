@@ -1,0 +1,69 @@
+{
+  "slug": "abacco-technology",
+  "order": 10,
+  "featured": false,
+  "category": "website",
+  "title": "Abacco Technology",
+  "tagline": "Corporate IT & Digital Solutions Website",
+  "liveUrl": "https://www.abaccotech.com/",
+  "cardDescription": "Corporate website showcasing IT services, software development, ERP/CRM solutions and digital offerings.",
+  "overview": "A professional corporate website presenting Abacco Technology's software development, ERP/CRM, mobile app and cloud services, with a clear path for business enquiries.",
+  "problem": "The company needed a professional online presence that explains its services and converts visitors into enquiries.",
+  "solution": "A fast, responsive corporate site with service-focused navigation, company story and a contact/enquiry section.",
+  "result": "Visitors can quickly understand Abacco's capabilities and get in touch from any device.",
+  "features": [
+    "Corporate homepage and about section",
+    "Web, software, ERP/CRM and mobile app services",
+    "Cloud and database services",
+    "Contact and enquiry section",
+    "Responsive layout"
+  ],
+  "contributions": [
+    "Built responsive page layouts",
+    "Created service and company sections",
+    "Improved navigation and UX",
+    "Optimised for desktop, tablet and mobile",
+    "Supported deployment"
+  ],
+  "challenges": [],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "VS Code",
+        "Browser DevTools"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "95+",
+      "label": "PageSpeed"
+    }
+  ],
+  "tags": [
+    "React",
+    "Vite",
+    "Corporate"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/abacco-technology-1.svg",
+    "/uploads/projects/abacco-technology-2.svg",
+    "/uploads/projects/abacco-technology-3.svg"
+  ]
+}

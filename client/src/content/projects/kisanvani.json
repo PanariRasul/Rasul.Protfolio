@@ -1,0 +1,75 @@
+{
+  "slug": "kisanvani",
+  "order": 8,
+  "featured": false,
+  "category": "erp",
+  "title": "KisanVani",
+  "tagline": "Agriculture Information & Farmer Support Platform",
+  "liveUrl": "https://kisanvani-03zg.onrender.com/",
+  "cardDescription": "Agriculture web app giving farmers simple access to crop information, farming resources and agricultural services.",
+  "overview": "KisanVani is an agriculture-focused platform that makes farming information and digital services easier for farmers to access through a simple, responsive interface.",
+  "problem": "Farmers often lack easy access to reliable crop and farming information in a simple format.",
+  "solution": "A clean, mobile-friendly platform that organises crop information, farming resources and agricultural services in one place.",
+  "result": "Farmers and agriculture users can browse farming resources from any device with straightforward navigation.",
+  "features": [
+    "Crop and farming information",
+    "Agricultural services and resources",
+    "Farmer-friendly interface",
+    "Responsive, mobile-first design",
+    "Organised agricultural content"
+  ],
+  "contributions": [
+    "Developed responsive frontend interfaces",
+    "Implemented layouts and page components",
+    "Integrated frontend with backend services",
+    "Worked on content presentation and UX",
+    "Supported deployment and maintenance"
+  ],
+  "challenges": [
+    {
+      "challenge": "Designing for users who are new to apps.",
+      "solution": "Kept navigation simple with large, clear sections and minimal text input."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "REST APIs",
+        "Render"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "Mobile",
+      "label": "First"
+    },
+    {
+      "value": "Agri",
+      "label": "Tech"
+    }
+  ],
+  "tags": [
+    "React",
+    "AgriTech"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/kisanvani-1.svg",
+    "/uploads/projects/kisanvani-2.svg",
+    "/uploads/projects/kisanvani-3.svg"
+  ]
+}

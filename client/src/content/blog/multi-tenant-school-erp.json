@@ -1,0 +1,12 @@
+{
+  "slug": "multi-tenant-school-erp",
+  "title": "How I built a multi-school ERP on one codebase",
+  "date": "2026-11-20",
+  "summary": "Separating each school's data safely while sharing one backend and one frontend.",
+  "tags": [
+    "Architecture",
+    "PostgreSQL",
+    "Prisma"
+  ],
+  "body": "## The problem\n\nEvery school wanted its own system, its own branding — and ideally its own app. Building one system per school wasn't realistic.\n\n## The approach\n\n- **One database, tenant-scoped data.** Every record belongs to a school, and every API query is filtered by that school's ID.\n- **Roles on top of tenants.** Super Admin, school Admin, teacher, student and parent each get different permissions, enforced in middleware.\n- **One frontend, many apps.** The same React/Vite build is packaged with Capacitor into branded Android apps, each with its own name, logo and application ID.\n\n## What I learned\n\nDesign tenant separation in from day one — retrofitting it later touches every query.\n\n*Draft post — edit or replace it from the admin panel.*"
+}

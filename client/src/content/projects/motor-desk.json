@@ -1,0 +1,103 @@
+{
+  "slug": "motor-desk",
+  "order": 5,
+  "featured": true,
+  "category": "erp",
+  "title": "The Motor Desk",
+  "tagline": "Automotive Garage & Workshop Management System",
+  "liveUrl": "https://themotordesk.com/",
+  "cardDescription": "Garage management system for car, bike and washing services — customers, vehicles, job tracking, billing, staff, salary and reports.",
+  "overview": "The Motor Desk simplifies daily workshop operations for car, bike and washing services. It brings customers, vehicles, service jobs, billing, staff and business reports into one platform.",
+  "problem": "Garages track customers, vehicles, jobs and payments in notebooks or scattered spreadsheets, so service history gets lost and billing is slow.",
+  "solution": "A single dashboard for customer and vehicle records, service booking and job tracking, digital invoicing, payments, staff and salary management, and revenue reports.",
+  "result": "Workshops keep full service history per vehicle, bill digitally, and see their revenue and service reports in one place.",
+  "features": [
+    "Customer and vehicle management",
+    "Service booking, scheduling and job tracking",
+    "Digital billing, invoices and payment tracking",
+    "Staff and salary management",
+    "Customer service history",
+    "Business dashboard and analytics",
+    "Notifications"
+  ],
+  "contributions": [
+    "Built responsive React interfaces",
+    "Implemented customer and vehicle workflows",
+    "Worked on service tracking and billing",
+    "Built booking and invoicing API integrations",
+    "Developed admin dashboard and reports",
+    "Worked on deployment and production improvements"
+  ],
+  "challenges": [
+    {
+      "challenge": "Three different service lines (cars, bikes, washing) in one system.",
+      "solution": "Modelled services by category so each line shares customers and billing but keeps its own job flow."
+    },
+    {
+      "challenge": "Finding a vehicle's past work quickly at the counter.",
+      "solution": "Linked every job and invoice to the vehicle record to give an instant service history."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL",
+        "Prisma ORM"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "Postman"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "3",
+      "label": "Service lines"
+    },
+    {
+      "value": "Full",
+      "label": "Service history"
+    },
+    {
+      "value": "Staff",
+      "label": "& Salary"
+    }
+  ],
+  "tags": [
+    "React",
+    "CRM",
+    "Prisma",
+    "Automotive"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/motor-desk-1.svg",
+    "/uploads/projects/motor-desk-2.svg",
+    "/uploads/projects/motor-desk-3.svg"
+  ]
+}

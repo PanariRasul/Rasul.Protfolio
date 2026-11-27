@@ -1,0 +1,275 @@
+# Decap CMS — admin panel for the portfolio.
+# Open https://<your-site>/admin and log in with GitHub.
+# Every "Publish" commits the change to GitHub → Render rebuilds → live in ~1–2 min.
+# __SITE_URL__ is filled in automatically by the server.
+
+backend:
+  name: github
+  repo: PanariRasul/Rasul.Protfolio   # <-- change if you rename the repo
+  branch: master
+  base_url: __SITE_URL__
+  auth_endpoint: api/auth
+  commit_messages:
+    create: "content: add {{collection}} “{{slug}}”"
+    update: "content: update {{collection}} “{{slug}}”"
+    delete: "content: delete {{collection}} “{{slug}}”"
+    uploadMedia: "content: upload {{path}}"
+    deleteMedia: "content: delete {{path}}"
+
+media_folder: client/public/uploads
+public_folder: /uploads
+site_url: __SITE_URL__
+display_url: __SITE_URL__
+
+collections:
+  # ---------------------------------------------------------------- PROJECTS
+  - name: projects
+    label: Projects
+    label_singular: Project
+    description: ERP / CRM apps and websites. Each project gets its own "Know More" page.
+    folder: client/src/content/projects
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: "{{fields.slug}}"
+    identifier_field: title
+    summary: "{{order}}. {{title}} ({{category}})"
+    sortable_fields: [order, title, category]
+    view_groups:
+      - { label: Category, field: category }
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: URL slug (lowercase-with-dashes, unique), name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and dashes'] }
+      - { label: Tagline, name: tagline, widget: string }
+      - label: Category
+        name: category
+        widget: select
+        options: [{ label: "ERP / CRM App", value: erp }, { label: "Website", value: website }]
+        default: erp
+      - { label: Display order (1 = first), name: order, widget: number, value_type: int, default: 50 }
+      - { label: Featured, name: featured, widget: boolean, default: false, required: false }
+      - { label: Private / internal (hides live link), name: private, widget: boolean, default: false, required: false }
+      - { label: Live URL, name: liveUrl, widget: string, required: false }
+      - { label: Code URL (GitHub), name: codeUrl, widget: string, required: false }
+      - { label: Your role, name: role, widget: string, default: "Full Stack Developer" }
+      - { label: Timeline, name: timeline, widget: string, default: "2025 — Present" }
+      - { label: Card description (short), name: cardDescription, widget: text }
+      - { label: Overview, name: overview, widget: text }
+      - { label: The Problem, name: problem, widget: text, required: false }
+      - { label: My Solution, name: solution, widget: text, required: false }
+      - { label: The Result, name: result, widget: text, required: false }
+      - label: Screenshots (first one is the cover)
+        name: images
+        widget: list
+        field: { label: Image, name: image, widget: image }
+      - label: Key features
+        name: features
+        widget: list
+        field: { label: Feature, name: feature, widget: string }
+      - label: My contribution
+        name: contributions
+        widget: list
+        required: false
+        field: { label: Point, name: point, widget: string }
+      - label: Challenges
+        name: challenges
+        widget: list
+        required: false
+        fields:
+          - { label: Challenge, name: challenge, widget: string }
+          - { label: How I solved it, name: solution, widget: text }
+      - label: Tech stack
+        name: techStack
+        widget: list
+        fields:
+          - { label: Group (Frontend, Backend…), name: label, widget: string }
+          - label: Items
+            name: items
+            widget: list
+            field: { label: Item, name: item, widget: string }
+      - label: Highlights (small stats)
+        name: highlights
+        widget: list
+        required: false
+        fields:
+          - { label: Value, name: value, widget: string }
+          - { label: Label, name: label, widget: string }
+      - label: Tags (shown on card)
+        name: tags
+        widget: list
+        field: { label: Tag, name: tag, widget: string }
+
+  # ---------------------------------------------------------------- BLOG
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: client/src/content/blog
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: "{{fields.slug}}"
+    identifier_field: title
+    summary: "{{date}} — {{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: URL slug, name: slug, widget: string, pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and dashes'] }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Summary, name: summary, widget: text }
+      - label: Tags
+        name: tags
+        widget: list
+        field: { label: Tag, name: tag, widget: string }
+      - { label: Body, name: body, widget: markdown }
+
+  # ---------------------------------------------------------------- SETTINGS
+  - name: settings
+    label: Site settings
+    editor: { preview: false }
+    files:
+      - label: "Profile, hero, resume & links"
+        name: site
+        file: client/src/content/site.json
+        fields:
+          - { label: Full name, name: name, widget: string }
+          - { label: First name, name: firstName, widget: string }
+          - { label: Last name, name: lastName, widget: string }
+          - { label: Title, name: title, widget: string }
+          - label: Typing roles (hero)
+            name: roles
+            widget: list
+            field: { label: Role, name: role, widget: string }
+          - { label: Hero text, name: heroText, widget: text }
+          - label: Availability
+            name: availability
+            widget: object
+            fields:
+              - { label: Show badge, name: open, widget: boolean }
+              - { label: Badge text, name: label, widget: string }
+              - { label: Note (e.g. Immediate joiner / 30 days notice), name: note, widget: string, required: false }
+          - { label: "📄 Resume PDF (upload new file here)", name: resume, widget: file, allow_multiple: false }
+          - { label: Location, name: location, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Phone (display), name: phone, widget: string }
+          - { label: Show phone on site, name: showPhone, widget: boolean }
+          - { label: WhatsApp number (country code, digits only), name: whatsapp, widget: string }
+          - { label: GitHub username (for activity graph), name: githubUsername, widget: string }
+          - label: Links
+            name: links
+            widget: object
+            fields:
+              - { label: GitHub URL, name: github, widget: string }
+              - { label: LinkedIn URL, name: linkedin, widget: string }
+              - { label: Booking link (Calendly / Cal.com) — leave empty to hide, name: bookingUrl, widget: string, required: false }
+          - label: About section
+            name: about
+            widget: object
+            fields:
+              - { label: Summary, name: summary, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: text }
+              - label: Stats
+                name: stats
+                widget: list
+                fields:
+                  - { label: Value, name: value, widget: string }
+                  - { label: Label, name: label, widget: string }
+          - label: Highlights / achievements
+            name: achievements
+            widget: list
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }
+          - label: Currently learning
+            name: learning
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Note, name: note, widget: string }
+          - { label: Last updated (shown in footer), name: lastUpdated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+
+      - label: Experience
+        name: experience
+        file: client/src/content/experience.json
+        fields:
+          - label: Jobs
+            name: items
+            widget: list
+            fields:
+              - { label: Role, name: role, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Location, name: location, widget: string }
+              - { label: Start, name: start, widget: string }
+              - { label: End, name: end, widget: string, default: Present }
+              - { label: Current job, name: current, widget: boolean }
+              - label: Points
+                name: points
+                widget: list
+                field: { label: Point, name: point, widget: string }
+
+      - label: Skills
+        name: skills
+        file: client/src/content/skills.json
+        fields:
+          - label: Skill groups
+            name: groups
+            widget: list
+            fields:
+              - { label: Group name, name: name, widget: string }
+              - label: Skills
+                name: items
+                widget: list
+                field: { label: Skill, name: skill, widget: string }
+          - label: Spoken languages
+            name: languages
+            widget: list
+            field: { label: Language, name: language, widget: string }
+
+      - label: Services
+        name: services
+        file: client/src/content/services.json
+        fields:
+          - label: Services
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Icon
+                name: icon
+                widget: select
+                options: [layers, receipt, globe, smartphone, plug, server]
+              - { label: Description, name: text, widget: text }
+              - { label: Price (optional, e.g. "From ₹15,000"), name: price, widget: string, required: false }
+
+      - label: Education
+        name: education
+        file: client/src/content/education.json
+        fields:
+          - label: Education
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Institution, name: place, widget: string }
+              - { label: Sub-line, name: sub, widget: string }
+              - { label: Score, name: score, widget: string }
+              - { label: Icon, name: icon, widget: select, options: [degree, book, school] }
+
+      - label: Certificates
+        name: certificates
+        file: client/src/content/certificates.json
+        fields:
+          - label: Certificates
+            name: items
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Issuer, name: issuer, widget: string }
+              - { label: Certificate image, name: image, widget: image, required: false }
+              - { label: Verify link, name: link, widget: string, required: false }

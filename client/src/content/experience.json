@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "role": "Full Stack Web Developer",
+      "company": "Abacco Technology",
+      "logo": "/abacco-logo.webp",
+      "location": "Bengaluru, Karnataka",
+      "start": "June 2025",
+      "end": "Present",
+      "current": true,
+      "points": [
+        "Develop and maintain full-stack ERP, CRM, billing and business management applications using React.js, Node.js, Express.js, TypeScript, PostgreSQL, MongoDB and Prisma ORM",
+        "Build RESTful APIs and backend services, and design relational and document database schemas for business modules",
+        "Implement authentication, role-based permissions and school/tenant-level data separation in multi-tenant systems",
+        "Integrate third-party services including payment gateways, email services and SMS notifications",
+        "Package React/Vite applications as Android apps using Capacitor, with school-specific branding and configuration",
+        "Debug production issues, test API integrations, and deploy and maintain applications on Render and Cloudflare",
+        "Build responsive client websites optimised for performance (95+ PageSpeed scores)"
+      ]
+    }
+  ]
+}

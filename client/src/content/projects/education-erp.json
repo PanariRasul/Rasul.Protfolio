@@ -1,0 +1,106 @@
+{
+  "slug": "education-erp",
+  "order": 1,
+  "featured": true,
+  "category": "erp",
+  "title": "Abacco Education ERP",
+  "tagline": "Multi-School Management System + Android Apps",
+  "liveUrl": "https://www.eduabaccotech.com/",
+  "cardDescription": "A multi-school ERP covering students, teachers, attendance, timetables, exams, results, fees and reports — with role-based dashboards and white-label Android apps.",
+  "overview": "Abacco Education ERP is a multi-school management platform run by a Super Admin. Each school's data is separated inside one shared codebase, and admins, teachers, students and parents each get their own dashboard. The same frontend is packaged as school-branded Android apps using Capacitor.",
+  "problem": "Schools were running admissions, attendance, fees and results on paper and spreadsheets. Every school wanted its own branding and app, but building a separate system for each one wasn't practical.",
+  "solution": "One multi-tenant platform: a Super Admin manages many schools, each school sees only its own data through role-based permissions, and the same React/Vite frontend is shipped as separate branded Android apps (Fazeelah EMS, Waseela EMS, Abacco School App).",
+  "result": "Schools manage their daily operations from one system, parents get fee reminders by SMS/WhatsApp, and new branded school apps can be produced from the shared codebase instead of being built from scratch.",
+  "features": [
+    "Super Admin multi-school management with school-specific branding",
+    "Classes & sections, student and teacher registration",
+    "Attendance, timetable and homework modules",
+    "Exams, results and report generation",
+    "Fee management with payment gateway integration",
+    "Automated fee reminders by SMS / WhatsApp",
+    "Role-specific dashboards for admins, teachers, students and parents",
+    "User and role management (RBAC)"
+  ],
+  "contributions": [
+    "Built React frontend pages for school administration workflows",
+    "Implemented multi-school (multi-tenant) functionality and data separation",
+    "Worked on authentication and role-based user access",
+    "Integrated frontend with REST APIs and Prisma/PostgreSQL services",
+    "Packaged the web app as Android apps with Capacitor and Android Studio",
+    "Tested Android builds and API integrations, supported deployment"
+  ],
+  "challenges": [
+    {
+      "challenge": "Keeping each school's data strictly separate in a shared database.",
+      "solution": "Scoped every query and API route by school/tenant ID and enforced it through role-based middleware."
+    },
+    {
+      "challenge": "Shipping several branded Android apps from one codebase.",
+      "solution": "Used Capacitor with per-school configuration for app name, logo and application ID, all pointing to the shared backend."
+    }
+  ],
+  "techStack": [
+    {
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "label": "Backend",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "RBAC"
+      ]
+    },
+    {
+      "label": "Database",
+      "items": [
+        "PostgreSQL",
+        "Prisma ORM"
+      ]
+    },
+    {
+      "label": "Mobile",
+      "items": [
+        "Capacitor",
+        "Android Studio"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "value": "4",
+      "label": "User roles"
+    },
+    {
+      "value": "Multi",
+      "label": "School tenants"
+    },
+    {
+      "value": "3",
+      "label": "Android apps"
+    }
+  ],
+  "tags": [
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Capacitor",
+    "Multi-tenant"
+  ],
+  "private": false,
+  "codeUrl": "",
+  "role": "Full Stack Developer",
+  "timeline": "2025 — Present",
+  "images": [
+    "/uploads/projects/education-erp-1.svg",
+    "/uploads/projects/education-erp-2.svg",
+    "/uploads/projects/education-erp-3.svg"
+  ]
+}

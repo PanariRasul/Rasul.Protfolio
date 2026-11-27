@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "MERN Full Stack Web Developer",
+      "issuer": "DevTown & Tap Academy",
+      "image": "/uploads/certificates/mern.svg",
+      "link": ""
+    },
+    {
+      "name": "Java Full Stack Developer Training",
+      "issuer": "Tap Academy",
+      "image": "/uploads/certificates/java.svg",
+      "link": ""
+    }
+  ]
+}
