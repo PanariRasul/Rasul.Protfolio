@@ -1,16 +1,25 @@
 {
+  "title": "Data Snap Solutions Inc.",
   "slug": "data-snap-solutions",
+  "tagline": "B2B Data Solutions & Technology Services Website",
+  "category": "website",
   "order": 13,
   "featured": false,
-  "category": "website",
-  "title": "Data Snap Solutions Inc.",
-  "tagline": "B2B Data Solutions & Technology Services Website",
+  "private": false,
   "liveUrl": "https://datasnapsolutionsinc.com/",
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Corporate B2B website presenting data solutions and technology services.",
   "overview": "A corporate website presenting business data solutions and technology services, with industry sections and an enquiry flow.",
   "problem": "The company needed to explain its data services to businesses in a professional, trustworthy way.",
   "solution": "Reusable, responsive sections for services, industries and company profile, plus a contact page.",
   "result": "Potential clients can explore solutions and send enquiries from any device.",
+  "images": [
+    "/uploads/datasnap-b2b-solutions-hero.webp",
+    "/uploads/projects/data-snap-solutions-2.svg",
+    "/uploads/projects/data-snap-solutions-3.svg"
+  ],
   "features": [
     "B2B data solutions",
     "Industry service sections",
@@ -54,14 +63,5 @@
     "React",
     "Vite",
     "B2B"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Frontend Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/data-snap-solutions-1.svg",
-    "/uploads/projects/data-snap-solutions-2.svg",
-    "/uploads/projects/data-snap-solutions-3.svg"
   ]
 }
