@@ -1,16 +1,25 @@
 {
+  "title": "Procure Marketing Leads",
   "slug": "procure-marketing-leads",
+  "tagline": "B2B Lead Generation & Marketing Website",
+  "category": "website",
   "order": 12,
   "featured": false,
-  "category": "website",
-  "title": "Procure Marketing Leads",
-  "tagline": "B2B Lead Generation & Marketing Website",
+  "private": false,
   "liveUrl": "https://procure-marketingleads.com/",
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "B2B marketing website showcasing lead generation services with enquiry-focused design.",
   "overview": "A business website presenting B2B lead generation and marketing services, built to generate enquiries from potential clients.",
   "problem": "The company needed a credible B2B presence that explains data-driven lead services and drives enquiries.",
   "solution": "A corporate layout with clear service sections and lead/enquiry forms throughout.",
   "result": "Prospects can understand the offering and submit enquiries easily.",
+  "images": [
+    "/uploads/procure-b2b-lead-generation-platform.webp",
+    "/uploads/projects/procure-marketing-leads-2.svg",
+    "/uploads/projects/procure-marketing-leads-3.svg"
+  ],
   "features": [
     "B2B lead generation services",
     "Marketing solutions sections",
@@ -54,14 +63,5 @@
     "React",
     "Vite",
     "B2B"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Frontend Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/procure-marketing-leads-1.svg",
-    "/uploads/projects/procure-marketing-leads-2.svg",
-    "/uploads/projects/procure-marketing-leads-3.svg"
   ]
 }
