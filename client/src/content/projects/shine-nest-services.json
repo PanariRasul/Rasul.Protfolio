@@ -1,16 +1,25 @@
 {
+  "title": "Shine Nest Services",
   "slug": "shine-nest-services",
+  "tagline": "Facility Management & Cleaning Services Website",
+  "category": "website",
   "order": 11,
   "featured": false,
-  "category": "website",
-  "title": "Shine Nest Services",
-  "tagline": "Facility Management & Cleaning Services Website",
+  "private": false,
   "liveUrl": "https://shinenestservices.in/",
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "Business website for facility management and professional cleaning services with enquiry forms.",
   "overview": "A professional services website showcasing facility management, cleaning and maintenance services, with company information and business enquiries.",
   "problem": "The business needed to present many service categories clearly and capture customer enquiries.",
   "solution": "Service-category sections, a clean corporate design and easy-to-find contact forms.",
   "result": "Customers can explore services and contact the business from any device.",
+  "images": [
+    "/uploads/shine-nest-cleaning-services-homepage.webp",
+    "/uploads/projects/shine-nest-services-2.svg",
+    "/uploads/projects/shine-nest-services-3.svg"
+  ],
   "features": [
     "Service category sections",
     "Company profile",
@@ -54,14 +63,5 @@
     "React",
     "Vite",
     "Business"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Frontend Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/shine-nest-services-1.svg",
-    "/uploads/projects/shine-nest-services-2.svg",
-    "/uploads/projects/shine-nest-services-3.svg"
   ]
 }
