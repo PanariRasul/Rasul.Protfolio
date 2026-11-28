@@ -1,16 +1,25 @@
 {
+  "title": "Fazeelah English Medium School",
   "slug": "fazeelah-ems",
+  "tagline": "School Website & Institution Portal",
+  "category": "website",
   "order": 14,
   "featured": false,
-  "category": "website",
-  "title": "Fazeelah English Medium School",
-  "tagline": "School Website & Institution Portal",
+  "private": false,
   "liveUrl": "https://fazeelah-ems.onrender.com/",
+  "codeUrl": "",
+  "role": "Frontend Developer",
+  "timeline": "2025 — Present",
   "cardDescription": "School website with academics, facilities, gallery and admission enquiries — plus a branded Android app.",
   "overview": "A professional website for Fazeelah English Medium School so parents, students and visitors can learn about academics, facilities and admissions. The school also has its own branded Android app built from the Education ERP.",
   "problem": "The school needed an online presence for parents and prospective admissions.",
   "solution": "A responsive school site with about, academics, facilities, gallery, admissions and contact sections.",
   "result": "Parents can find school information and admission details easily on mobile or desktop.",
+  "images": [
+    "/uploads/fazelah-school-admissions-homepage.webp",
+    "/uploads/projects/fazeelah-ems-2.svg",
+    "/uploads/projects/fazeelah-ems-3.svg"
+  ],
   "features": [
     "About and academics",
     "Facilities and gallery",
@@ -51,14 +60,5 @@
   "tags": [
     "React",
     "Education"
-  ],
-  "private": false,
-  "codeUrl": "",
-  "role": "Frontend Developer",
-  "timeline": "2025 — Present",
-  "images": [
-    "/uploads/projects/fazeelah-ems-1.svg",
-    "/uploads/projects/fazeelah-ems-2.svg",
-    "/uploads/projects/fazeelah-ems-3.svg"
   ]
 }
